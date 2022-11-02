@@ -1,4 +1,4 @@
-function displayArray(a) {
+function displayNumbers(a) {
     for(let i = 0; i < a.length; i++) {
         if((a[i] % 3) === 0) {
             console.log(a[i])
@@ -6,4 +6,4 @@ function displayArray(a) {
     }
 }
 let arr = [1, 2, 3, 6];
-displayArray(arr);
+displayNumbers(arr);
